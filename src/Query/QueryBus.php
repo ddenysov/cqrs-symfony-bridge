@@ -28,5 +28,4 @@ class QueryBus implements QueryBusInterface
     {
         return new QueryResultSingle($this->handle($query));
     }
-
 }
