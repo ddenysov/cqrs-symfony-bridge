@@ -16,7 +16,7 @@ class QueryBus implements QueryBusInterface
     /**
      * @param MessageBusInterface $messageBus 1
      */
-    public function __construct(private readonly MessageBusInterface $messageBus)
+    public function __construct(private MessageBusInterface $messageBus)
     {
     }
 
@@ -26,6 +26,6 @@ class QueryBus implements QueryBusInterface
      */
     public function send(Query $query): QueryResult
     {
-        return new QueryResultSingle($this->handle($query));
+        return $this->handle($query);
     }
 }
