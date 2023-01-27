@@ -3,7 +3,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ddenysov\\CQRS\\Bridge\\Symfony\\Query\\": "src/"
+            "Bus\\": "src/"
         }
     },
     "authors": [
