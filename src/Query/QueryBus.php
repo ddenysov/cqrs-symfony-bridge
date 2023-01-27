@@ -1,6 +1,6 @@
 <?php
 
-namespace Bus\Query;
+namespace Ddenysov\CQRS\Bridge\Symfony\Query;
 
 use Ddenysov\CQRS\Query\Query;
 use Ddenysov\CQRS\Query\QueryBus as QueryBusInterface;
