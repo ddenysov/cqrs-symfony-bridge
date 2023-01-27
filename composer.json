@@ -1,0 +1,25 @@
+{
+    "name": "ddenysov/cqrs-symfony-bridge",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ddenysov\\CqrsSymfonyBridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmytro Denysov",
+            "email": "dmytro.denysov@danads.se"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "https://github.com/ddenysov/cqrs.git"
+        }
+    ],
+    "require": {
+        "symfony/messenger": "^6.2",
+        "ddenysov/cqrs": "dev-main"
+    }
+}
