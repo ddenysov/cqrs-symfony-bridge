@@ -14,7 +14,7 @@ class QueryBus implements QueryBusInterface
     use HandleTrait;
 
     /**
-     * @param MessageBusInterface $messageBus
+     * @param MessageBusInterface $messageBus 1
      */
     public function __construct(private readonly MessageBusInterface $messageBus)
     {
